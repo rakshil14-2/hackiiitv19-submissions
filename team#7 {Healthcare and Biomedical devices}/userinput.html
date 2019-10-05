@@ -2,9 +2,14 @@
 <head>
 	<title>DOM manipulations</title>
 	<h><font color = "red">Do you require medical help?</font></h>
+
+	<br>
+	<h>If not able to choose option in case of difficulty just click on click button</h>
 	<br>
 	<script type="text/javascript">
 
+		function time1()
+		{alert("You need medical help");}
 		function fun()
 		{
 
@@ -14,7 +19,8 @@
 		alert("You want a medical help ");
 		else if(r2.checked== true)
 			alert("You  do not want medical help ");
-							
+		else
+		setTimeout(time1,1000);	
 		}
 
 
