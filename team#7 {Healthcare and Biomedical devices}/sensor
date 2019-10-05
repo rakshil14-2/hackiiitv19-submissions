@@ -1,4 +1,4 @@
-// Code for detecting accident using ultrasonic sensors
+// Code for detecting accident using ultrasonic sensors and will send information to sim service centers
 long duration=0;
 const int trigpin=5;
 const int echopin=6;
